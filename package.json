@@ -1,0 +1,34 @@
+{
+  "name": "nb",
+  "description": "CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script.",
+  "homepage": "https://github.com/xwmx/nb",
+  "license": "AGPL-3.0",
+  "version": "^6.7.7",
+  "homepage": "https://github.com/xwmx/nb",
+  "author": "William Melody",
+  "bugs": {
+    "url": "https://github.com/xwmx/nb/issues"
+  },
+  "keywords": [
+    "Zshell",
+    "zsh",
+    "nb"
+  ],
+  "zsh-data": {
+    "plugin-info": {
+      "user": "xwmx",
+      "plugin": "nb",
+      "version": "6.7.7"
+  },
+  "zi-ices": {
+    "default": {
+      "requires": "bgn;bash",
+      "sbin": "nb",
+      "nocompile": "",
+      "as": "completion",
+      "depth": 3,
+      "atclone": "ln -sfv etc/nb-completion.zsh _nb"
+    }
+   }
+  }
+}
