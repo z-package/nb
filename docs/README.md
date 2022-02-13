@@ -32,7 +32,8 @@ zi pack for nb
 
 ### Default Profile
 
-Provides the CLI command `nb` and completions.
+Provides CLI and local web plain text note‑taking, bookmarking, and archiving with linking,
+tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script.
 
 The package installed locally into a plugin directory (feature of
 the bin-gem-node annex) and provided to the command line through _shims_, i.e.:
