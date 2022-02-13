@@ -55,7 +55,7 @@
       "nocompile": "",
       "as": "completion",
       "depth": 3,
-      "atclone": "ln -sfv etc/nb-completion.zsh _nb"
+      "atclone": "mv -vf etc/nb-completion.zsh _nb"
     }
    }
   }
