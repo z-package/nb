@@ -43,14 +43,14 @@ automatic forwarder scripts created under `$ZPFX/bin` (which is added to the
 The ZI command executed will be equivalent to:
 
 ```shell
-zi ice nocompile sbin'nb' as'completion' \
-  depth'3' atclone'mv etc/nb-completion.zsh _nb'
-zi light xwmx/nb
+zi ice as'completion' nocompile sbin'nb' \
+  depth'3' atclone'mv -vf etc/nb-completion.zsh _nb'
+zi light @xwmx/nb
 ```
 
 ```shell
 # Same as above, except using the For syntax
-zi for as'completion' nocompile depth'3' \
-  sbin'nb' atclone'mv etc/nb-completion.zsh _nb' \
+zi for as'completion' nocompile sbin'nb' \
+  depth'3' atclone'mv -vf etc/nb-completion.zsh _nb' \
     @xwmx/nb
 ```
