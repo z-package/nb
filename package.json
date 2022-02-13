@@ -1,5 +1,5 @@
 {
-  "name": "nb",
+  "name": "zsh-nb",
   "description": "CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script.",
   "homepage": "https://github.com/xwmx/nb",
   "license": "AGPL-3.0",
