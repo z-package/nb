@@ -1,23 +1,23 @@
 {
-  "_from": "nb@^6.9.3",
-  "_id": "zsh-nb@6.9.3",
+  "_from": "nb@^6.9.5",
+  "_id": "zsh-nb@6.9.5",
   "_inBundle": false,
   "_location": "/zsh-nb",
   "_phantomChildren": {},
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "nb@^6.9.3",
+    "raw": "nb@^6.9.5",
     "name": "nb",
     "escapedName": "nb",
-    "rawSpec": "^6.9.3",
+    "rawSpec": "^6.9.5",
     "saveSpec": null,
-    "fetchSpec": "^6.9.3"
+    "fetchSpec": "^6.9.5"
   },
   "_requiredBy": [],
-  "_resolved": "https://github.com/xwmx/nb/archive/refs/tags/6.9.3.tar.gz",
+  "_resolved": "https://github.com/xwmx/nb/archive/refs/tags/6.9.5.tar.gz",
   "_shasum": "f8bccfbf69a0e9f4349eb91b575c671038dcb116",
-  "_spec": "nb@^6.9.3",
+  "_spec": "nb@^6.9.5",
   "name": "zsh-nb",
   "homepage": "https://github.com/xwmx/nb",
   "license": "AGPL-3.0",
@@ -28,10 +28,10 @@
   "devDependencies": {},
   "description": "CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script.",
   "directories": {
-        "test": "test"
+    "test": "test"
   },
   "scripts": {
-        "test": "make test"
+    "test": "make test"
   },
   "bugs": {
     "url": "https://github.com/xwmx/nb/issues"
@@ -41,22 +41,22 @@
     "zsh",
     "nb"
   ],
-  "version": "6.9.3",
+  "version": "6.9.5",
   "zsh-data": {
     "plugin-info": {
       "user": "xwmx",
       "plugin": "nb",
-      "version": "6.9.3"
-  },
-  "zi-ices": {
-    "default": {
-      "requires": "bgn;bash",
-      "sbin": "nb",
-      "nocompile": "",
-      "as": "completion",
-      "depth": 3,
-      "atclone": "mv -vf etc/nb-completion.zsh _nb"
+      "version": "6.9.5"
+    },
+    "zi-ices": {
+      "default": {
+        "requires": "bgn;bash",
+        "sbin": "nb",
+        "nocompile": "",
+        "as": "completion",
+        "depth": 3,
+        "atclone": "mv -vf etc/nb-completion.zsh _nb"
+      }
     }
-   }
   }
 }
