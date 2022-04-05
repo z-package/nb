@@ -1,23 +1,23 @@
 {
-  "_from": "nb@^6.9.5",
-  "_id": "zsh-nb@6.9.5",
+  "_from": "nb@^6.10.0",
+  "_id": "zsh-nb@6.10.0",
   "_inBundle": false,
   "_location": "/zsh-nb",
   "_phantomChildren": {},
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "nb@^6.9.5",
+    "raw": "nb@^6.10.0",
     "name": "nb",
     "escapedName": "nb",
-    "rawSpec": "^6.9.5",
+    "rawSpec": "^6.10.0",
     "saveSpec": null,
-    "fetchSpec": "^6.9.5"
+    "fetchSpec": "^6.10.0"
   },
   "_requiredBy": [],
-  "_resolved": "https://github.com/xwmx/nb/archive/refs/tags/6.9.5.tar.gz",
+  "_resolved": "https://github.com/xwmx/nb/archive/refs/tags/6.10.0.tar.gz",
   "_shasum": "f8bccfbf69a0e9f4349eb91b575c671038dcb116",
-  "_spec": "nb@^6.9.5",
+  "_spec": "nb@^6.10.0",
   "name": "zsh-nb",
   "homepage": "https://github.com/xwmx/nb",
   "license": "AGPL-3.0",
@@ -41,12 +41,12 @@
     "zsh",
     "nb"
   ],
-  "version": "6.9.5",
+  "version": "6.10.0",
   "zsh-data": {
     "plugin-info": {
       "user": "xwmx",
       "plugin": "nb",
-      "version": "6.9.5"
+      "version": "6.10.0"
     },
     "zi-ices": {
       "default": {
