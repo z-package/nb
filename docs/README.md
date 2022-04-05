@@ -13,18 +13,6 @@
 
 </h3>
 
-- [Default Profile](#default-profile)
-
-> This repository compatible with [ZI](https://github.com/z-shell/zi)
-
-The [xwmx/nb](https://github.com/xwmx/nb/) zsh package that can use the NPM package registry to automatically:
-
-- get the plugin's Git repository OR release-package URL,
-- get the list of the recommended ices for the plugin,
-  - there can be multiple lists of ices,
-  - the ice lists are stored in _profiles_; there's at least one profile, _default_,
-  - the ices can be selectively overridden.
-
 ```zsh
 # Download and install nb 
 zi pack for nb
@@ -54,3 +42,15 @@ zi for as'completion' nocompile sbin'nb' \
   depth'3' atclone'mv -vf etc/nb-completion.zsh _nb' \
     @xwmx/nb
 ```
+
+---
+
+> This repository compatible with [ZI](https://github.com/z-shell/zi)
+
+The [xwmx/nb](https://github.com/xwmx/nb/) zsh package that can use the NPM package registry to automatically:
+
+- get the plugin's Git repository OR release-package URL,
+- get the list of the recommended ices for the plugin,
+  - there can be multiple lists of ices,
+  - the ice lists are stored in _profiles_; there's at least one profile, _default_,
+  - the ices can be selectively overridden.
