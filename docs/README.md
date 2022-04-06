@@ -13,13 +13,6 @@
 
 </h3>
 
-```zsh
-# Download and install nb 
-zi pack for nb
-```
-
-### Default Profile
-
 Provides CLI and local web plain text note‑taking, bookmarking, and archiving with linking,
 tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script.
 
@@ -27,6 +20,15 @@ The package installed locally into a plugin directory (feature of
 the bin-gem-node annex) and provided to the command line through _shims_, i.e.:
 automatic forwarder scripts created under `$ZPFX/bin` (which is added to the
 `$PATH` by default; shims are also a bin-gem-node annex feature).
+
+
+### Default Profile
+
+
+```zsh
+# Download and install nb 
+zi pack for nb
+```
 
 The ZI command executed will be equivalent to:
 
