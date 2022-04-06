@@ -22,15 +22,13 @@ automatic forwarder scripts created under `$ZPFX/bin` (which is added to the
 `$PATH` by default; shims are also a bin-gem-node annex feature).
 
 
-### Default Profile
-
+### Available `pack''` invocations
 
 ```zsh
-# Download and install nb 
 zi pack for nb
 ```
 
-The ZI command executed will be equivalent to:
+### Default Profile
 
 ```shell
 zi ice as'completion' nocompile sbin'nb' \
